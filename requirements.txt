@@ -1,0 +1,5 @@
+pandas
+clickhouse-driver
+streamlit
+plotly
+flask
