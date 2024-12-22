@@ -1,0 +1,146 @@
+{
+    "device": {
+        "SmartTV": {
+            "initial_playback_delay_ms": {
+                "good": 5000,
+                "average": 10000,
+                "bad": 60000,
+                "reverse": true
+            },
+            "rebuffer_count": {
+                "good": 1,
+                "average": 2,
+                "bad": 3,
+                "reverse": true
+            },
+            "average_bitrate_kbps": {
+                "good": 4000,
+                "average": 3000,
+                "bad": 2000,
+                "reverse": false
+            }
+        },
+        "Desktop": {
+            "initial_playback_delay_ms": {
+                "good": 3000,
+                "average": 7000,
+                "bad": 20000,
+                "reverse": true
+            },
+            "rebuffer_count": {
+                "good": 1,
+                "average": 2,
+                "bad": 3,
+                "reverse": true
+            },
+            "average_bitrate_kbps": {
+                "good": 4000,
+                "average": 3000,
+                "bad": 2000,
+                "reverse": false
+            }
+        },
+        "Mobile": {
+            "initial_playback_delay_ms": {
+                "good": 3000,
+                "average": 7000,
+                "bad": 20000,
+                "reverse": true
+            },
+            "rebuffer_count": {
+                "good": 2,
+                "average": 5,
+                "bad": 8,
+                "reverse": true
+            },
+            "average_bitrate_kbps": {
+                "good": 1500,
+                "average": 1000,
+                "bad": 500,
+                "reverse": false
+            }
+        },
+        "Tablet": {
+            "initial_playback_delay_ms": {
+                "good": 3000,
+                "average": 7000,
+                "bad": 20000,
+                "reverse": true
+            },
+            "rebuffer_count": {
+                "good": 1,
+                "average": 2,
+                "bad": 3,
+                "reverse": true
+            },
+            "average_bitrate_kbps": {
+                "good": 2000,
+                "average": 1500,
+                "bad": 1000,
+                "reverse": false
+            }
+        }
+    },
+    "duration": {
+        "short": {
+            "initial_playback_delay_ms": {
+                "good": 2000,
+                "average": 3000,
+                "bad": 7000,
+                "reverse": true
+            },
+            "rebuffer_count": {
+                "good": 2,
+                "average": 3,
+                "bad": 6,
+                "reverse": true
+            },
+            "average_bitrate_kbps": {
+                "good": 1900,
+                "average": 1600,
+                "bad": 1000,
+                "reverse": false
+            }
+        },
+        "medium": {
+            "initial_playback_delay_ms": {
+                "good": 3000,
+                "average": 7000,
+                "bad": 15000,
+                "reverse": true
+            },
+            "rebuffer_count": {
+                "good": 1,
+                "average": 3,
+                "bad": 5,
+                "reverse": true
+            },
+            "average_bitrate_kbps": {
+                "good": 3000,
+                "average": 2000,
+                "bad": 1000,
+                "reverse": false
+            }
+        },
+        "long": {
+            "initial_playback_delay_ms": {
+                "good": 3000,
+                "average": 7000,
+                "bad": 20000,
+                "reverse": true
+            },
+            "rebuffer_count": {
+                "good": 0,
+                "average": 1,
+                "bad": 2,
+                "reverse": true
+            },
+            "average_bitrate_kbps": {
+                "good": 4000,
+                "average": 3000,
+                "bad": 2000,
+                "reverse": false
+            }
+        }
+    }
+}
